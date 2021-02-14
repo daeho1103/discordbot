@@ -10,8 +10,10 @@ import time
 from discord.utils import get
 from discord.ext import commands
 
+import os
 
-token = "ODAyNDg3MTUyNDYwOTU1NjQ4.YAv8Zg.bQyCK6630kZ59B7cenXgit4sVHs"
+access_token = os.environ["BOT_TOKEN"]
+token = access_token
 
 client = commands.Bot(command_prefix='!')
 # intents = discord.Intents.default()
