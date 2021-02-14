@@ -1,5 +1,5 @@
 discord.py==1.5.1
-openpyxl.py==3.0.6
-youtube_dl.py
-datetime.py
-time.py
+openpyxl == 3.0.6
+youtube_dl
+datetime
+time
